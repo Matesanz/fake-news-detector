@@ -38,19 +38,22 @@ The project consists of several components:
 
 ## Installation
 
-To set up this project, you will need Python and the following libraries:
+This project uses
 
 - numpy
-- pandas
 - scikit-learn
-- NLTK (Natural Language Toolkit)
-- TensorFlow (for deep learning models)
-- Flask (for the web application, if applicable)
+- matplotlib
 
 You can install these libraries using `pip`:
 
 ```bash
-pip install numpy pandas scikit-learn nltk tensorflow flask
+pip install .
+```
+
+You can also install them using `poetry`:
+
+```bash
+poetry install
 ```
 
 ## Usage
